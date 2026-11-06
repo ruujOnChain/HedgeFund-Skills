@@ -53,6 +53,14 @@ mkdir -p ~/.claude/skills && cp -r skills/* ~/.claude/skills/
 cd skills && for s in */; do zip -r "../${s%/}.zip" "$s" -x "*/__pycache__/*"; done
 ```
 
+**Grok Build.** Copy the skill folders into your personal Grok skills directory, or into `.grok/skills/` inside a project ([guide](https://docs.x.ai/build/features/skills-plugins-marketplaces)):
+
+```bash
+mkdir -p ~/.grok/skills && cp -r skills/* ~/.grok/skills/
+```
+
+**Grok Bot.** Grok Bot saves skills from inside a conversation. Share a skill folder (or this repository) with your Bot and ask it to save the skill as a private skill. Private skills form one library shared by all your Bots; enable a skill for a specific Bot under Connect apps > Private skills ([guide](https://docs.x.ai/grok-bot/skills-routines-and-automations)).
+
 **Other agents.** Any agent that supports the Agent Skills format can load these folders from its skills directory; see its documentation for the location.
 
 ## Usage
