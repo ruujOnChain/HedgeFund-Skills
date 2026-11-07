@@ -169,17 +169,6 @@ hedge-fund-skills/
 └── LICENSE
 ```
 
-## References
-
-- Agent Skills specification, [agentskills.io/specification](https://agentskills.io/specification)
-- R. C. Grinold and R. N. Kahn, _Active Portfolio Management_, McGraw Hill, 2000.
-- A. C. MacKinlay, "Event studies in economics and finance," _Journal of Economic Literature_, 1997.
-- J. L. Kelly, "A new interpretation of information rate," _Bell System Technical Journal_, 1956.
-- A. Moreira and T. Muir, "Volatility managed portfolios," _Journal of Finance_, 2017.
-- J. D. Hamilton, "A new approach to the economic analysis of nonstationary time series and the business cycle," _Econometrica_, 1989.
-- D. H. Bailey and M. López de Prado, "The Sharpe ratio efficient frontier," _Journal of Risk_, 2012.
-- D. H. Bailey and M. López de Prado, "The deflated Sharpe ratio," _Journal of Portfolio Management_, 2014.
-
 ## License
 
 [MIT](LICENSE)
